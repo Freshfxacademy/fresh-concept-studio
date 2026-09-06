@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Sends every route (including /admin) to index.html so React Router
+# can handle client-side routing instead of Netlify returning a 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,18 @@
+:root {
+  --bg: #FFFFFF;
+  --bg-alt: #F6F6F4;
+  --ink: #0D0D10;
+  --ink-soft: #5B5B63;
+  --accent: #E6401C;
+  --accent-soft: #FCE7E2;
+  --line: #E7E7E4;
+
+  /* Category Track Tints */
+  --track-podcast: #2E6F6E;
+  --track-action-thriller: #8A1E1E;
+  --track-3d-animation: #5B4B9E;
+  --track-short-film: #B4791F;
+  --track-advertisement: #1F5FA8;
+  --track-illustration: #C23B7B;
+  --track-web-development: #2B8A3E;
+}

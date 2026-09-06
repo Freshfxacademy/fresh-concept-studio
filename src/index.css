@@ -1,0 +1,35 @@
+@import "./styles/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-feature-settings: "tnum", "zero", "cv03", "cv04", "cv11";
+  }
+
+  /* Engineering Blueprint Dot Matrix Background (subtle) */
+  .engineering-grid {
+    background-image: radial-gradient(#E7E7E4 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  /* Custom subtle timeline scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f6f6f4;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4ce;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E6401C;
+  }
+}
